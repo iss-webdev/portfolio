@@ -21,6 +21,8 @@ img {
     position: absolute;
     height: 90px;
     background: transparent;
+    position: fixed;
+    z-index: 99;
 }
 
 .header {
@@ -33,6 +35,8 @@ img {
     margin-top: 40px;
     margin-left: 250px;
     cursor: pointer;
+    position: fixed;
+    z-index: 99;
 }
 
 ul {
@@ -42,6 +46,8 @@ ul {
     margin-left: 900px;
     font-size: 15px;
     margin-top: -27px;
+    position: fixed;
+    z-index: 99;
 }
 
 
@@ -217,7 +223,7 @@ h1:hover span:nth-child(1):after {
 }
 
 .page-2 {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px;
     position: absolute;
     margin-left: 100px;
@@ -279,7 +285,7 @@ h1:hover span:nth-child(1):after {
 }
 
 .img-block {
-    margin-top: 330px;
+    margin-top: 370px;
     width: 400px;
     height: 300px;
     padding: -10px;
@@ -291,7 +297,7 @@ h1:hover span:nth-child(1):after {
 }
 
 .img-block-2 {
-    margin-top: 330px;
+    margin-top: 370px;
     width: 400px;
     height: 300px;
     margin-left: 900px;
@@ -319,7 +325,7 @@ h1:hover span:nth-child(1):after {
     text-align: center;
     color: white;
     font-size: 50px;
-    margin-top: 715px;
+    margin-top: 760px;
     animation: right linear;
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
