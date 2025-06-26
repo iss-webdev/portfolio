@@ -6,33 +6,38 @@
     padding: 0px;
     @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
     margin: 0;
-    background-color: #222831;
     font-style: none;
+    background-color: #222831;
     text-decoration: none;
     list-style: none;
 }
 
+#HOME {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222831;
+    padding: 20px 0;
+    z-index: 1000;
+}
 
 img {
     width: 100px;
+    margin-top: -10px;
     padding: 0;
-    margin-top: 7px;
     margin-left: 151px;
     position: absolute;
     height: 90px;
-    background: transparent;
     position: fixed;
     z-index: 99;
 }
 
-.header {
-    padding: 20px;
-}
-
 
 .header h3 {
+    margin-top: 10px;
     color: aqua;
-    margin-top: 40px;
     margin-left: 250px;
     cursor: pointer;
     position: fixed;
@@ -41,11 +46,11 @@ img {
 
 ul {
     display: flex;
+    margin-top: 10px;
     gap: 25px;
     align-items: center;
     margin-left: 900px;
     font-size: 15px;
-    margin-top: -27px;
     position: fixed;
     z-index: 99;
 }
@@ -67,7 +72,7 @@ ul li a {
 
 .hover-box:hover {
     background-color: #222831;
-    color: white;
+    /* color: white; */
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid;
@@ -100,13 +105,13 @@ a:hover::before {
 }
 
 .page-1 {
-    padding: 10px;
+    padding: 30px;
 }
 
 .page-1 p {
     margin-left: 650px;
     color: aqua;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .page-1 .model {
