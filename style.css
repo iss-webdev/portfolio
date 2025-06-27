@@ -498,31 +498,11 @@ footer p {
         margin-top: 100px;
     }
 
-        .about-pages-1 {
-        height: 250px;
-        box-shadow: 0px 5px 5px #00ffff;
-        width: 100%;
-        max-width: 150px;
-        top: 0;
-        right: -300px;
-        font-size: 5px;
-        transition: .3s ease;
-        border-radius: 10px;
-    }
-
-    .about-pages-1.active {
-        font-size: 10px;
-        right: 10px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-
-    .about-pages-1{
+    .about-pages .about-items{
         margin-top: 20px;
     }
 
-    .about-pages .about-pages-1 li{
+    .about-pages li{
         margin-top: 10px;
     }
     .ham-menu {
@@ -630,11 +610,11 @@ footer p {
     }
 
     .new {
-        font-size: 70px;
+        font-size: 50px;
         color: #222;
         margin-top: 10px;
         max-width: 200px;
-        margin-left: 0px;
+        margin-left: -10px;
     }
 
     .new span {
