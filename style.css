@@ -508,7 +508,7 @@ footer p {
     .ham-menu {
         height: 50px;
         width: 50px;
-        margin-left: 280px;
+        margin-left: 310px;
         position: relative;
     }
 
@@ -768,7 +768,7 @@ footer p {
         text-align: center;
         color: white;
         font-size: 30px;
-        margin-top: 1400px;
+        margin-top: 1000px;
         animation: right linear;
         animation-timeline: view();
         animation-range: entry 0 cover 30%;
