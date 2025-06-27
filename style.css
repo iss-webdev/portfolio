@@ -479,41 +479,42 @@ footer p {
 
 @media (max-width: 600px) {
     .about-pages {
-        height: 200px;
-        background: transparent;
+        height: 250px;
         box-shadow: 0px 5px 5px #00ffff;
         width: 100%;
         max-width: 150px;
         top: 0;
-        right: -450px;
+        right: -300px;
         font-size: 5px;
         transition: .3s ease;
+        border-radius: 10px;
     }
 
     .about-pages.active {
         font-size: 10px;
-        right: 0;
+        right: 95px;
         display: flex;
         flex-direction: column;
         margin-top: 100px;
     }
 
-    .about-pages ul {
-        padding: 1rem;
-        display: flex;
-        gap: 70px;
+    .about-pages #home{
+        margin-top: 20px;
     }
 
+    .about-pages li{
+        margin-top: 10px;
+    }
     .ham-menu {
         height: 50px;
         width: 50px;
-        margin-left: 500px;
+        margin-left: 250px;
         position: relative;
     }
 
     .ham-menu span {
-        height: 5px;
-        width: 100%;
+        height: 4px;
+        width: 80%;
         background-color: rgb(255, 255, 255);
         border-radius: 25px;
         position: absolute;
@@ -549,17 +550,18 @@ footer p {
         width: 50px;
         margin-top: -10px;
         padding: 0;
-        margin-left: 60px;
+        margin-left: 30px;
         position: absolute;
-        height: 70px;
+        height: 50px;
         position: fixed;
         z-index: 99;
     }
 
     .header h3 {
         margin-top: 10px;
+        font-size: 10px;
         color: rgb(0, 255, 255);
-        margin-left: 150px;
+        margin-left: 80px;
         cursor: pointer;
         position: fixed;
         z-index: 99;
@@ -570,14 +572,14 @@ footer p {
     }
 
     .page-1 p {
-        margin-left: 250px;
+        margin-left: 120px;
         color: aqua;
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
     .page-1 h1 {
         font-size: 70px;
-        font-weight: 500;
+        font-weight: 300;
         color: #222;
         letter-spacing: 5px;
         cursor: pointer;
@@ -609,10 +611,10 @@ footer p {
     }
 
     .new {
-        font-size: 100px;
+        font-size: 70px;
         color: #222;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .new span {
@@ -736,7 +738,7 @@ footer p {
     }
 
     .img-block {
-        margin-top: 350px;
+        margin-top: 380px;
         width: 300px;
         height: 200px;
         padding: -10px;
@@ -790,7 +792,7 @@ footer p {
         flex-direction: column;
         gap: 40px;
         color: aqua;
-        margin-left: -100px;
+        margin-left: 40px;
     }
 
     .pricing .card {
@@ -856,7 +858,7 @@ footer p {
     footer .h1 {
         color: white;
         justify-content: center;
-        margin-left: 150px;
+        margin-left: 100px;
         margin-top: 60px;
         font-size: 30px;
     }
@@ -864,7 +866,7 @@ footer p {
     footer p {
         color: aqua;
         margin: 0;
-        margin-left: 150px;
+        margin-left: 100px;
         font-size: 15px;
         display: inline-block;
         display: flex;
@@ -882,7 +884,7 @@ footer p {
         height: 30px;
         color: aqua;
         font-size: 30px;
-        margin-left: 160px;
+        margin-left: 100px;
         cursor: pointer;
         transition: transform 0.5s ease-in-out;
     }
@@ -900,5 +902,4 @@ footer p {
         color: aqua;
         cursor: pointer;
     }
-
 }
