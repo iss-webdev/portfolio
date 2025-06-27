@@ -775,6 +775,7 @@ footer p {
         gap: 40px;
         color: aqua;
         margin-left: 20px;
+        margin-right:20px;
     }
 
     .pricing .card {
