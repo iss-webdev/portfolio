@@ -492,7 +492,7 @@ footer p {
 
     .about-pages.active {
         font-size: 10px;
-        right: 5px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         margin-top: 100px;
@@ -547,12 +547,12 @@ footer p {
     }
 
     img {
-        width: 50px;
+        width: 70px;
         margin-top: 10px;
         padding: 0;
         margin-left: 30px;
         position: absolute;
-        height: 50px;
+        height: 70px;
         position: fixed;
         z-index: 99;
     }
@@ -739,7 +739,7 @@ footer p {
     }
 
     .img-block-2 {
-        margin-top: 600px;
+        margin-top: 750px;
         width: 300px;
         height: 200px;
         margin-left: 40px;
@@ -781,7 +781,7 @@ footer p {
         flex-direction: column;
         gap: 40px;
         color: aqua;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .pricing .card {
@@ -847,7 +847,7 @@ footer p {
     footer .h1 {
         color: white;
         justify-content: center;
-        margin-left: 150px;
+        margin-left: 130px;
         margin-top: 60px;
         font-size: 30px;
     }
@@ -864,7 +864,7 @@ footer p {
     }
 
     .foot-logo{
-        margin-left: 150px;
+        margin-left: 110px;
     }
 
     .foot-logo .fa-brands-1 {
@@ -872,7 +872,7 @@ footer p {
         height: 30px;
         color: aqua;
         font-size: 30px;
-        margin-left: 140px;
+        margin-left: 120px;
         cursor: pointer;
         transition: transform 0.5s ease-in-out;
     }
@@ -890,5 +890,4 @@ footer p {
         color: aqua;
         cursor: pointer;
     }
-
 }
