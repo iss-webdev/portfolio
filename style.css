@@ -1,350 +1,343 @@
 :root {
-    --font-h2: @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap');
+  --font-h2: @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap');
 }
 
 * {
-    padding: 0px;
-    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-    margin: 0;
-    font-style: none;
-    background-color: #222831;
-    text-decoration: none;
-    list-style: none;
+  padding: 0px;
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+  margin: 0;
+  font-style: none;
+  background-color: #222831;
+  text-decoration: none;
+  list-style: none;
 }
 
 #HOME {
-    height: 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #222831;
-    padding: 20px 0;
-    z-index: 1000;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222831;
+  padding: 20px 0;
+  z-index: 1000;
 
 }
 
 img {
-    width: 100px;
-    margin-top: -20px;
-    padding: 0;
-    margin-left: 151px;
-    position: absolute;
-    height: 90px;
-    position: fixed;
-    z-index: 99;
+  width: 100px;
+  margin-top: -20px;
+  padding: 0;
+  margin-left: 151px;
+  position: absolute;
+  height: 90px;
+  position: fixed;
+  z-index: 99;
 }
 
 
 .header h3 {
-    margin-top: 10px;
-    color: aqua;
-    margin-left: 250px;
-    cursor: pointer;
-    position: fixed;
-    z-index: 99;
+  margin-top: 10px;
+  color: aqua;
+  margin-left: 250px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
 }
 
 ul {
-    display: flex;
-    margin-top: 10px;
-    gap: 25px;
-    align-items: center;
-    margin-left: 900px;
-    font-size: 15px;
-    position: fixed;
-    z-index: 99;
+  display: flex;
+  margin-top: 10px;
+  gap: 25px;
+  align-items: center;
+  margin-left: 900px;
+  font-size: 15px;
+  position: fixed;
+  z-index: 99;
 }
 
 
 ul li a {
-    display: flex;
-    flex-direction: column;
-    color: aqua;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+  position: relative;
 }
 
 .hover-box {
-    display: inline-block;
-    padding: 5px;
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .hover-box:hover {
-    background-color: #222831;
-    /* color: white; */
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 1px solid;
-    border-color: aqua;
+  background-color: #222831;
+  /* color: white; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: aqua;
 }
 
 
 a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    border-radius: 4px;
-    background-color: aqua;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: aqua;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .page-1 {
-    padding: 30px;
+  padding: 30px;
 }
 
 .page-1 p {
-    margin-left: 650px;
-    color: aqua;
-    margin-top: 100px;
+  margin-left: 650px;
+  color: aqua;
+  margin-top: 100px;
 }
 
 .page-1 h1 {
-    font-size: 200px;
-    font-weight: 500;
-    color: #222;
-    letter-spacing: 5px;
-    cursor: pointer;
-    margin-left: 80px;
-    margin-top: 20px;
+  font-size: 200px;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
-
-
 h1 span {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 h1:hover span:nth-child(1) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 h1:hover span:nth-child(2) {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 h1:hover span {
-    color: aqua;
-    text-shadow: 0 0 10px aqua,
-        0 0 20px aqua,
-        0 0 40px aqua,
-        0 0 80px aqua,
-        0 0 120px aqua,
-        0 0 240px aqua,
-        0 0 70px aqua,
+  color: aqua;
+  text-shadow: 0 0 10px aqua,
+    0 0 20px aqua,
+    0 0 40px aqua,
+    0 0 80px aqua,
+    0 0 120px aqua,
+    0 0 240px aqua,
+    0 0 70px aqua,
 }
 
 .new {
-    font-size: 200px;
-    color: #222;
-    margin-top: -30px;
-    margin-left: 80px;
+  font-size: 200px;
+  color: #222;
+  margin-top: -30px;
+  margin-left: 80px;
 }
 
 .new span {
-    transition: 1s;
-    transition-duration: 1s;
+  transition: 1s;
+  transition-duration: 1s;
 }
 
 .new:hover span {
-    transition: 0.50s;
+  transition: 0.50s;
 }
 
 .new:hover span:nth-child(1):after {
-    content: "E";
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease-in-out, visibility 1s;
+  content: "E";
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 1s;
 }
 
 .new:hover span:nth-child(1):after {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 
 h1:hover span:nth-child(1):after {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .new:hover span:nth-child(2):after {
-    content: "E";
-    transform: translateY(10px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  content: "E";
+  transform: translateY(10px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .new:hover span:nth-child(3):after {
-    content: "O";
-    transform: translateY(10px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  content: "O";
+  transform: translateY(10px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .new:hover span:nth-child(4):after {
-    content: "E";
-    content-visibility: 1s;
-    opacity: 1;
-    transform: translateY(10px);
-    transition: opacity 3s ease-in-out, transform 1s ease-in-out;
+  content: "E";
+  content-visibility: 1s;
+  opacity: 1;
+  transform: translateY(10px);
+  transition: opacity 3s ease-in-out, transform 1s ease-in-out;
 }
 
 h1:hover span:nth-child(1):after {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
 .new:hover span {
-    color: aqua;
-    text-shadow: 0 0 10px aqua,
-        0 0 20px aqua,
-        0 0 40px aqua,
-        0 0 80px aqua,
-        0 0 120px aqua,
-        0 0 240px aqua,
-        0 0 70px aqua,
+  color: aqua;
+  text-shadow: 0 0 10px aqua,
+    0 0 20px aqua,
+    0 0 40px aqua,
+    0 0 80px aqua,
+    0 0 120px aqua,
+    0 0 240px aqua,
+    0 0 70px aqua,
 }
 
 .page-2 {
-    margin-top: 50px;
-    padding: 10px;
-    position: absolute;
-    margin-left: 100px;
+  gap: 30px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
-.page-2 h1 {
-    font-size: 70px;
-    color: white;
-    margin-bottom: 40px;
-    background: none;
+#ABOUT h1 {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-top: 60px;
+  animation: right linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
 }
 
-.page-2 h2 {
-    max-width: 900px;
-    color: aqua;
-    font: var(--font-h2);
-    font-size: 40px;
-    margin-bottom: 20px;
-    margin-left: -20px;
+#ABOUT h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-top: 60px;
 }
 
-.page-2 h3 {
-    color: aqua;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: -20px;
+#ABOUT h2 span {
+  color: aqua;
+  margin-top: 50px;
+}
+
+#ABOUT h3 {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #cbd5e1;
+}
+
+#ABOUT .about-project {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.block-1,
+.block video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .block h1 {
+    font-size: 2rem;
+  }
+
+  .block h2 {
+    font-size: 1.2rem;
+  }
+
+  .block h3 {
+    font-size: 0.95rem;
+  }
+
+  .block-1 video {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+  }
 }
 
 
-
-.page-2 .first {
-    height: 100vh;
-}
-
-.page-2 .about-project {
-    color: aqua;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: -20px;
-    font-size: 18px;
-}
-
-@keyframes appear {
+  @keyframes right {
     from {
-        opacity: 0;
-        transform: translateX(-100px);
+      opacity: 0;
+      transform: translateX(100px);
     }
 
     to {
-        opacity: 1;
-        transform: translateX(0px);
+      opacity: 1;
+      transform: translateX(0px);
     }
-}
+  }
 
-.block {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-}
-
-.img-block {
-    margin-top: 370px;
-    width: 400px;
-    height: 300px;
-    padding: -10px;
-    margin-bottom: 20px;
-    margin-left: 250px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-}
-
-.img-block-2 {
-    margin-top: 370px;
-    width: 400px;
-    height: 300px;
-    margin-left: 900px;
-    margin-bottom: 20px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-}
-
-@keyframes right {
-    from {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.header-1 {
+  .header-1 {
     max-width: 600px;
     margin: auto;
     text-align: center;
     color: white;
     font-size: 50px;
-    margin-top: 760px;
+    margin-top: 60px;
     animation: right linear;
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
-}
+  }
 
-.pricing {
+  .pricing {
     margin-top: 30px;
     display: inline-block;
     display: flex;
     gap: 20px;
-}
+  }
 
-.pricing:hover {
+  .pricing:hover {
     box-shadow: 2px solid rgb(99, 218, 218);
     box-sizing: border-box;
     background-clip: content-box;
     gap: 20px;
-}
+  }
 
-.pricing .card {
+  .pricing .card {
     position: relative;
     cursor: pointer;
     display: 150px;
@@ -365,63 +358,63 @@ h1:hover span:nth-child(1):after {
     animation: right linear;
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
-}
+  }
 
-.pricing .card:hover {
+  .pricing .card:hover {
     border: 5px solid;
     box-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 10px aqua;
     border-color: aqua;
     color: rgb(138, 228, 228);
-}
+  }
 
-.content {
+  .content {
     background-color: none;
     background: none;
-}
+  }
 
-.content h3 {
+  .content h3 {
     position: relative;
     margin: 0;
     margin-bottom: 20px;
-}
+  }
 
-.content p {
+  .content p {
     margin-top: 30px;
     font-size: 20px;
     position: relative;
     transition: transform 0.2s ease;
 
-}
+  }
 
-@keyframes up {
+  @keyframes up {
     from {
-        opacity: 0;
-        transform: translateY(50px);
+      opacity: 0;
+      transform: translateY(50px);
     }
 
     to {
-        opacity: 1;
-        transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
     }
-}
+  }
 
-footer {
+  footer {
     margin-top: 0px;
     padding: 0px;
     animation: top linear;
     animation-timeline: view();
     animation-range: entry 0 cover 10%;
-}
+  }
 
-footer .h1 {
+  footer .h1 {
     color: white;
     justify-content: center;
     margin-left: 630px;
     margin-top: 60px;
     font-size: 50px;
-}
+  }
 
-footer p {
+  footer p {
     color: aqua;
     margin: 0;
     margin-left: 250px;
@@ -430,10 +423,10 @@ footer p {
     display: flex;
     margin-top: -30px;
     margin-right: 0px;
-}
+  }
 
 
-.foot-logo .fa-brands-1 {
+  .foot-logo .fa-brands-1 {
     width: 40px;
     height: 40px;
     color: aqua;
@@ -444,443 +437,421 @@ footer p {
     line-height: 40px;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
-}
+  }
 
-.foot-logo .fa-brands-2 {
+  .foot-logo .fa-brands-2 {
     display: inline-flex;
     width: 40px;
     font-size: 30px;
     color: aqua;
     cursor: pointer;
-}
+  }
 
-.foot-logo .fa-brands-3 {
+  .foot-logo .fa-brands-3 {
     font-size: 30px;
     width: 50px;
     color: aqua;
     cursor: pointer;
-}
+  }
 
-.fa-brands-1:hover {
+  .fa-brands-1:hover {
     transform: scale(1.2);
-}
+  }
 
-.fa-brands-2:hover {
+  .fa-brands-2:hover {
     transform: scale(1.2);
-}
+  }
 
-.fa-brands-3:hover {
+  .fa-brands-3:hover {
     transform: scale(1.2);
-}
+  }
 
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
     .about-pages {
-        height: 270px;
-        box-shadow: 0px 5px 5px #00ffff;
-        width: 100%;
-        max-width: 150px;
-        top: 0;
-        right: -300px;
-        font-size: 5px;
-        transition: .3s ease;
-        border-radius: 10px;
+      height: 270px;
+      box-shadow: 0px 5px 5px #00ffff;
+      width: 100%;
+      max-width: 150px;
+      top: 0;
+      right: -300px;
+      font-size: 5px;
+      transition: .3s ease;
+      border-radius: 10px;
     }
 
     .about-pages.active {
-        font-size: 10px;
-        right: 10px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
+      font-size: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
     }
 
-    .about-pages .about-items-1{
-        margin-top: 20px;
+    .about-pages .about-items-1 {
+      margin-top: 20px;
     }
 
-    .about-pages li{
-        margin-top: 10px;
+    .about-pages li {
+      margin-top: 10px;
     }
+
     .ham-menu {
-        height: 50px;
-        width: 50px;
-        margin-left: 310px;
-        position: relative;
+      height: 50px;
+      width: 50px;
+      margin-left: 310px;
+      position: relative;
     }
 
     .ham-menu span {
-        height: 4px;
-        width: 80%;
-        background-color: rgb(255, 255, 255);
-        border-radius: 25px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-58%, -50%);
-        transition: .3s ease;
+      height: 4px;
+      width: 80%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 25px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-58%, -50%);
+      transition: .3s ease;
     }
 
     .ham-menu span:nth-child(1) {
-        top: 25%;
+      top: 25%;
     }
 
     .ham-menu span:nth-child(3) {
-        top: 75%;
+      top: 75%;
     }
 
     .ham-menu.active span:nth-child(1) {
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
     }
 
     .ham-menu.active span:nth-child(2) {
-        opacity: 0;
+      opacity: 0;
     }
 
     .ham-menu.active span:nth-child(3) {
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(-45deg);
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
     }
 
     img {
-        width: 70px;
-        padding: 0;
-        margin-left: 10px;
-        position: absolute;
-        height: 70px;
-        position: fixed;
-        z-index: 99;
+      width: 70px;
+      padding: 0;
+      margin-left: 10px;
+      position: absolute;
+      height: 70px;
+      position: fixed;
+      z-index: 99;
     }
 
     .header h3 {
-        margin-top: 10px;
-        font-size: 20px;
-        color: rgb(0, 255, 255);
-        margin-left: 80px;
-        cursor: pointer;
-        position: fixed;
-        z-index: 99;
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(0, 255, 255);
+      margin-left: 80px;
+      cursor: pointer;
+      position: fixed;
+      z-index: 99;
     }
 
     .page-1 {
-        padding: 30px;
+      padding: 30px;
     }
 
     .page-1 p {
-        margin-left: 90px;
-        color: aqua;
-        margin-top: 80px;
+      margin-left: 90px;
+      color: aqua;
+      margin-top: 80px;
     }
 
     .page-1 h1 {
-        font-size: 70px;
-        font-weight: 300;
-        color: #222;
-        letter-spacing: 5px;
-        cursor: pointer;
-        margin-left: 30px;
-        margin-top: 50px;
+      font-size: 70px;
+      font-weight: 300;
+      color: #222;
+      letter-spacing: 5px;
+      cursor: pointer;
+      margin-left: 30px;
+      margin-top: 50px;
     }
 
     h1 span {
-        transition: 0.5s;
+      transition: 0.5s;
     }
 
     h1:hover span:nth-child(1) {
-        margin-right: 10px;
+      margin-right: 10px;
     }
 
     h1:hover span:nth-child(2) {
-        margin-left: 40px;
+      margin-left: 40px;
     }
 
     h1:hover span {
-        color: aqua;
-        text-shadow: 0 0 10px aqua,
-            0 0 20px aqua,
-            0 0 40px aqua,
-            0 0 80px aqua,
-            0 0 120px aqua,
-            0 0 240px aqua,
-            0 0 70px aqua,
+      color: aqua;
+      text-shadow: 0 0 10px aqua,
+        0 0 20px aqua,
+        0 0 40px aqua,
+        0 0 80px aqua,
+        0 0 120px aqua,
+        0 0 240px aqua,
+        0 0 70px aqua,
     }
 
     .new {
-        font-size: 50px;
-        color: #222;
-        margin-top: 10px;
-        max-width: 200px;
-        margin-left: -10px;
+      font-size: 50px;
+      color: #222;
+      margin-top: 10px;
+      max-width: 200px;
+      margin-left: -10px;
     }
 
     .new span {
-        transition: 1s;
-        transition-duration: 1s;
+      transition: 1s;
+      transition-duration: 1s;
     }
 
     .new:hover span {
-        transition: 0.50s;
+      transition: 0.50s;
     }
 
     .new:hover span:nth-child(1):after {
-        content: "E";
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.5s ease-in-out, visibility 1s;
+      content: "E";
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease-in-out, visibility 1s;
     }
 
     .new:hover span:nth-child(1):after {
-        opacity: 1;
-        visibility: visible;
+      opacity: 1;
+      visibility: visible;
     }
 
 
     h1:hover span:nth-child(1):after {
-        opacity: 1;
-        visibility: visible;
+      opacity: 1;
+      visibility: visible;
     }
 
     .new:hover span:nth-child(2):after {
-        content: "E";
-        transform: translateY(10px);
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+      content: "E";
+      transform: translateY(10px);
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     }
 
     .new:hover span:nth-child(3):after {
-        content: "O";
-        transform: translateY(10px);
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+      content: "O";
+      transform: translateY(10px);
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     }
 
     .new:hover span:nth-child(4):after {
-        content: "E";
-        content-visibility: 1s;
-        opacity: 1;
-        transform: translateY(10px);
-        transition: opacity 3s ease-in-out, transform 1s ease-in-out;
+      content: "E";
+      content-visibility: 1s;
+      opacity: 1;
+      transform: translateY(10px);
+      transition: opacity 3s ease-in-out, transform 1s ease-in-out;
     }
 
     h1:hover span:nth-child(1):after {
-        opacity: 1;
-        transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
     }
 
 
     .new:hover span {
-        color: aqua;
-        text-shadow: 0 0 10px aqua,
-            0 0 20px aqua,
-            0 0 40px aqua,
-            0 0 80px aqua,
-            0 0 120px aqua,
-            0 0 240px aqua,
-            0 0 70px aqua,
+      color: aqua;
+      text-shadow: 0 0 10px aqua,
+        0 0 20px aqua,
+        0 0 40px aqua,
+        0 0 80px aqua,
+        0 0 120px aqua,
+        0 0 240px aqua,
+        0 0 70px aqua,
     }
 
     .page-2 {
-        margin-top: 40px;
-        padding: 10px;
-        position: absolute;
-        margin-left: 70px;
+      margin-top: 40px;
+      padding: 10px;
+      position: absolute;
+      margin-left: 70px;
     }
 
     .page-2 h1 {
-        font-size: 35px;
-        color: white;
-        margin-bottom: 40px;
-        background: none;
+      font-size: 35px;
+      color: white;
+      margin-bottom: 40px;
+      background: none;
     }
 
     .page-2 h2 {
-        max-width: 400px;
-        color: aqua;
-        font: var(--font-h2);
-        font-size: 30px;
-        margin-bottom: 20px;
-        margin-left: -40px;
+      max-width: 400px;
+      color: aqua;
+      font: var(--font-h2);
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-left: -40px;
     }
 
     .page-2 h3 {
-        color: aqua;
-        font-size: 15px;
-        margin-top: 10px;
-        margin-left: -40px;
+      color: aqua;
+      font-size: 15px;
+      margin-top: 10px;
+      margin-left: -40px;
     }
 
     .page-2 .about-project {
-        color: aqua;
-        font-size: 15px;
-        margin-top: 10px;
-        margin-left: -40px;
-        font-size: 15px;
-    }
-    
-    .img-block {
-        margin-top: 500px;
-        width: 300px;
-        height: 200px;
-        padding: -10px;
-        margin-bottom: 20px;
-        margin-left: 40px;
-        animation: appear linear;
-        animation-timeline: view();
-        animation-range: entry 0 cover 30%;
+      color: aqua;
+      font-size: 15px;
+      margin-top: 10px;
+      margin-left: -40px;
+      font-size: 15px;
     }
 
-    .img-block-2 {
-        margin-top: 750px;
-        width: 300px;
-        height: 200px;
-        display: block;
-        margin-left: 40px;
-        margin-bottom: 20px;
-        animation: appear linear;
-        animation-timeline: view();
-        animation-range: entry 0 cover 30%;
-    }
 
     @keyframes right {
-        from {
-            opacity: 0;
-            transform: translateX(100px);
-        }
+      from {
+        opacity: 0;
+        transform: translateX(100px);
+      }
 
-        to {
-            opacity: 1;
-            transform: translateX(0px);
-        }
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
     }
 
     .header-1 {
-        max-width: 400px;
-        margin: auto;
-        margin-left: 50px;
-        text-align: center;
-        color: white;
-        font-size: 30px;
-        margin-top: 1000px;
-        animation: right linear;
-        animation-timeline: view();
-        animation-range: entry 0 cover 30%;
+      max-width: 400px;
+      margin: auto;
+      margin-left: 50px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      margin-top: 60px;
+      animation: right linear;
+      animation-timeline: view();
+      animation-range: entry 0 cover 30%;
     }
 
     .pricing {
-        margin-top: 30px;
-        display: inline-block;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        color: aqua;
-        margin-left: 20px;
-        margin-right:20px;
+      margin-top: 30px;
+      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      color: aqua;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .pricing .card {
-        color: aqua;
-        position: relative;
-        cursor: pointer;
-        display: 50px;
-        height: 200px;
-        max-width: 300px;
-        background-color: none;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid transparent;
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        padding: 20px;
-        margin: auto;
-        text-align: center;
-        animation: right linear;
-        animation-timeline: view();
-        animation-range: entry 0 cover 30%;
+      color: aqua;
+      position: relative;
+      cursor: pointer;
+      display: 50px;
+      height: 200px;
+      max-width: 300px;
+      background-color: none;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid transparent;
+      border-radius: 15px;
+      transition: all 0.3s ease;
+      padding: 20px;
+      margin: auto;
+      text-align: center;
+      animation: right linear;
+      animation-timeline: view();
+      animation-range: entry 0 cover 30%;
     }
 
     .content {
-        background-color: none;
-        background: none;
+      background-color: none;
+      background: none;
     }
 
     .content h3 {
-        position: relative;
-        color: aqua;
-        margin: 0;
-        margin-bottom: 20px;
+      position: relative;
+      color: aqua;
+      margin: 0;
+      margin-bottom: 20px;
     }
 
     .content p {
-        margin-top: 30px;
-        font-size: 15px;
-        color: aqua;
-        position: relative;
-        transition: transform 0.2s ease;
+      margin-top: 30px;
+      font-size: 15px;
+      color: aqua;
+      position: relative;
+      transition: transform 0.2s ease;
 
     }
 
     @keyframes up {
-        from {
-            opacity: 0;
-            transform: translateY(50px);
-        }
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
 
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     footer {
-        margin-top: 0px;
-        padding: 0px;
-        animation: top linear;
-        animation-timeline: view();
-        animation-range: entry 0 cover 10%;
+      margin-top: 0px;
+      padding: 0px;
+      animation: top linear;
+      animation-timeline: view();
+      animation-range: entry 0 cover 10%;
     }
 
     footer .h1 {
-        color: white;
-        justify-content: center;
-        margin-left: 110px;
-        margin-top: 60px;
-        font-size: 30px;
+      color: white;
+      justify-content: center;
+      margin-left: 110px;
+      margin-top: 60px;
+      font-size: 30px;
     }
 
     footer p {
-        color: aqua;
-        margin: 0;
-        margin-left: 40px;
-        font-size: 15px;
-        display: inline-block;
-        display: flex;
-        margin-top: -20px;
-        margin-bottom: 20px;
+      color: aqua;
+      margin: 0;
+      margin-left: 40px;
+      font-size: 15px;
+      display: inline-block;
+      display: flex;
+      margin-top: -20px;
+      margin-bottom: 20px;
     }
 
-    .foot-logo{
-        margin-left: 110px;
+    .foot-logo {
+      margin-left: 110px;
     }
 
     .foot-logo .fa-brands-1 {
-        width: 30px;
-        height: 30px;
-        color: aqua;
-        font-size: 30px;
-        margin-left: 120px;
-        cursor: pointer;
-        transition: transform 0.5s ease-in-out;
+      width: 30px;
+      height: 30px;
+      color: aqua;
+      font-size: 30px;
+      margin-left: 120px;
+      cursor: pointer;
+      transition: transform 0.5s ease-in-out;
     }
 
     .foot-logo .fa-brands-2 {
-        width: 40px;
-        font-size: 30px;
-        color: aqua;
-        cursor: pointer;
+      width: 40px;
+      font-size: 30px;
+      color: aqua;
+      cursor: pointer;
     }
 
     .foot-logo .fa-brands-3 {
-        font-size: 30px;
-        width: 20px;
-        color: aqua;
-        cursor: pointer;
+      font-size: 30px;
+      width: 20px;
+      color: aqua;
+      cursor: pointer;
     }
-}
+  }
