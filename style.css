@@ -426,7 +426,7 @@ video {
   }
 
 
-  .foot-logo .fa-brands-1 {
+  /* .foot-logo .fa-brands-1 {
     width: 40px;
     height: 40px;
     color: aqua;
@@ -437,9 +437,11 @@ video {
     line-height: 40px;
     cursor: pointer;
     transition: transform 0.5s ease-in-out;
-  }
+  } */
 
   .foot-logo .fa-brands-2 {
+    margin-top: 20px;
+    margin-left: 680px;
     display: inline-flex;
     width: 40px;
     font-size: 30px;
@@ -831,7 +833,7 @@ video {
       margin-left: 110px;
     }
 
-    .foot-logo .fa-brands-1 {
+    /* .foot-logo .fa-brands-1 {
       width: 30px;
       height: 30px;
       color: aqua;
@@ -839,7 +841,7 @@ video {
       margin-left: 120px;
       cursor: pointer;
       transition: transform 0.5s ease-in-out;
-    }
+    } */
 
     .foot-logo .fa-brands-2 {
       width: 40px;
